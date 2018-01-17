@@ -8,16 +8,18 @@ public class Ejercicio1 {
 		int [][] matriz1;
 		matriz1 = new int[5][5];
 		
-		int m = 0;
 		
 		for (int n=0; n<5; n++) {
 			
-			matriz1[n][m] = n+m;
+			for(int m=0; m<5; m++) {
+				matriz1[n][m] = n+m;
+				
+				System.out.print(matriz1[n][m]);
+			}
 			
-			System.out.println(matriz1[n][m]);
-			
-			m++;
-		}
+			System.out.println("\n");
+		
+			}
 		
 		
 	}
